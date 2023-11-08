@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend sending emojis through websocket",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js",
+    "client": "node client.js"
+  },
+  "author": "Léo Valette",
+  "license": "MIT",
+  "dependencies": {
+    "node-emoji": "^2.1.0",
+    "ws": "^8.14.2"
+  }
+}
